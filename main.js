@@ -17,14 +17,14 @@ function createWindow() {
 	window = new BrowserWindow({ width: (1280/3), height: (720/3),
       fullscreenable: false,
       resizable: true,
-        skipTaskbar: true,
+   //     skipTaskbar: true,
       show:true,
-        frame: false,
+   //     frame: false,
         transparent: true,
         alwaysOnTop: true,
           minimizable: false,
   maximizable: false,
-        showWindowIcon: false,
+    //    showWindowIcon: false,
       webPreferences: {
         nodeIntegration: true,
         'overlay-fullscreen-video': true,
@@ -35,13 +35,12 @@ function createWindow() {
   });
 
     window.setMenu(null);
-    window.setSkipTaskbar(true);
 
     window.once('focus', () => window.flashFrame(false))
 window.flashFrame(true)
     var size = window.getSize();
     window.setSize(size[0], parseInt(size[0] * 9 / 16));
-      window.setSkipTaskbar(true);
+ //     window.setSkipTaskbar(true);
 
     window.on('resize', function () {
   setTimeout(function () {

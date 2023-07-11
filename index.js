@@ -10,7 +10,6 @@ const proc = require("child_process");
 const child = proc.spawn(electron, ["."]);
 
 
-
 /*
 const express = require("express");
 const app = express();
