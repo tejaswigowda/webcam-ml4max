@@ -9,7 +9,7 @@
     "node": ">=8.9.0"
   },
   "dependencies": {
-    "electron": "^10.4.7",
+    "electron": "^10",
     "electron-traywindow-positioner": "^1.1.1",
     "express": "^4.18.2",
     "shelljs": "^0.8.5",
