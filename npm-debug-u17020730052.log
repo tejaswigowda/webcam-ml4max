@@ -1,7 +1,0 @@
-npm ERR! code ETARGET
-npm ERR! notarget No matching version found for electron@^10.5.0.
-npm ERR! notarget In most cases you or one of your dependencies are requesting
-npm ERR! notarget a package version that doesn't exist.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/tejaswigowda/.npm/_logs/2023-07-11T01_15_26_350Z-debug.log
