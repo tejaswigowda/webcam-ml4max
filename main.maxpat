@@ -377,12 +377,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-12",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.90478515625, 156.5, 240.0, 64.0 ],
-					"text" : "0. Install dependencies* from npm. Wait until the box below says 'completed'.",
+					"patching_rect" : [ 29.90478515625, 156.5, 240.0, 46.0 ],
+					"text" : "0. Install dependencies* using npm. ",
 					"textcolor" : [ 0.415574818849564, 0.124337434768677, 0.65010404586792, 1.0 ]
 				}
 
@@ -413,10 +413,26 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
 					"text" : "node.script index.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"clickedimage" : 1,
+					"id" : "obj-5",
+					"maxclass" : "pictctrl",
+					"name" : "install.png",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 59.90478515625, 367.5, 186.90478515625, 119.0 ]
 				}
 
 			}
@@ -506,6 +522,13 @@
 				"bootpath" : "~/Downloads/webcam-ml4max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "install.png",
+				"bootpath" : "~/Downloads/webcam-ml4max",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
